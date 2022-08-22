@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    background-color: rgb(70, 66, 66);
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    padding-top: 100px;
+    display: flex;
+
+
+}
+
+.left-content,.right-content{
+flex-basis: 50%;
+}
+
+
+.left-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,0.5fr));
+    grid-gap: 2rem;
+}
+
+.Card{
+    width: 300px;
+    background-color: rgb(184, 53, 16);
+    border-radius: 1rem;
+    box-shadow: 0 5px 5px rgba(0,0,0,0);
+    padding: 0 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+
+}
+
