@@ -19,9 +19,7 @@ const Pokeinfo = ({ data }) => {
             {data.abilities.map((poke) => {
               return (
                 <>
-                  <div className="group">
-                    <h2>{poke.ability.name}</h2>
-                  </div>
+             {/*  */}
                 </>
               );
             })}
