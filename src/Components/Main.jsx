@@ -38,41 +38,44 @@ const Main = () => {
   }, [url]);
   return (
     <>
-      <div className="container">
-        <div className="left-content">
-          <Card
-            pokemon={pokeData}
-            loading={loading}
-            infoPokemon={(poke) => setPokeDex(poke)}
-          />
+          <div className="container">
+              
+                        <div className="left-content">
+                        <Card
+                            pokemon={pokeData}
+                            loading={loading}
+                            infoPokemon={(poke) => setPokeDex(poke)}
+                        />
 
-          <div className="btn-group">
-            {prevUrl && (
-              <button
-                onClick={() => {
-                  setPokeData([]);
-                  setUrl(prevUrl);
-                }}
-              >
-                Previous
-              </button>
-            )}
+                        <div className="btn-group">
+                            {prevUrl && (
+                            <button
+                                onClick={() => {
+                                setPokeData([]);
+                                setUrl(prevUrl);
+                                }}
+                            >
+                                Previous
+                            </button>
+                            )}
 
-            {nextUrl && (
-              <button
-                onClick={() => {
-                  setPokeData([]);
-                  setUrl(nextUrl);
-                }}
-              >
-                Next
-              </button>
-            )}
-          </div>
-        </div>
+                            {nextUrl && (
+                            <button
+                                onClick={() => {
+                                setPokeData([]);
+                                setUrl(nextUrl);
+                                }}
+                            >
+                                Next
+                            </button>
+                            )}
+                        </div>
+                            </div>
+              
         <div className="right-content">
           <Pokeinfo data={pokeDex} />
-        </div>
+              </div>
+              
       </div>
     </>
   );

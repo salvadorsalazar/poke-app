@@ -11,6 +11,21 @@
 
  body {
      background-color: #343021;
+
+
+
+
+
+background: #000000;
+/* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #434343, #000000);
+/* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #434343, #000000);
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+     
  }
 
  .container {
@@ -25,15 +40,34 @@
      flex-basis: 50%;
  }
 
+
+
+
+
  .left-content {
+ /* .right-content { */
      display: grid;
      grid-template-columns: repeat(auto-fit, minmax(200px, 0.5fr));
      grid-gap: 2rem;
  }
 
+
+
+ .right-content {
+    /* .left-content { */
+ 
+     width: 50%;
+     text-align: center;
+     color: rgb(235, 115, 115);
+     position: fixed;
+     top: 100px;
+     right: 10px;
+ }
+
+
  .card {
      width: 300px;
-     background-color: #1f8ab8;
+     background-color: #1a5d7e;
      border-radius: 1rem;
      box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
      padding: 0 1.5rem;
@@ -43,18 +77,11 @@
      box-sizing: border-box;
  }
 
- .right-content {
-     width: 50%;
-     text-align: center;
-     color: black;
-     position: fixed;
-     top: 100px;
-     right: 10px;
- }
+
 
  .right-content img {
-     margin: 1.5rem;
-     height: 160px;
+     /* margin: 1.5rem; */
+     height: 100%;
  }
 
  .right-content h1 {
