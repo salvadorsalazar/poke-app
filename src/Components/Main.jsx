@@ -36,8 +36,13 @@ const Main = () => {
   useEffect(() => {
     pokeFun();
   }, [url]);
-  return (
-    <>
+    return (
+      
+        
+        <>
+            
+<div><h1 className="h1Center">Pokemon Index</h1> </div>
+
           <div className="container">
               
                         <div className="left-content">
