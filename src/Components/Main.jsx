@@ -41,10 +41,13 @@ const Main = () => {
         
         <>
             
-        <div><h1 className="h1Center">Pokemon Index</h1></div>
-        <div>
-  <input type="text" className="h1Center" placeholder="Search Pokedex.."></input>
-        </div>
+        {/* <div><h1 className="h1Center">Pokemon Index</h1></div> */}
+       <div class="topnav">
+  <a class="active" href="#home"><h1 className="h1Center">Pokemon Index</h1></a>
+  {/* <a href="#about">About</a>
+  <a href="#contact">Contact</a> */}
+  <input type="text" placeholder="Search.."></input>
+</div>
 
           <div className="container">
               
