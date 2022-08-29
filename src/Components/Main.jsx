@@ -41,7 +41,10 @@ const Main = () => {
         
         <>
             
-<div><h1 className="h1Center">Pokemon Index</h1> </div>
+        <div><h1 className="h1Center">Pokemon Index</h1></div>
+        <div>
+  <input type="text" className="h1Center" placeholder="Search Pokedex.."></input>
+        </div>
 
           <div className="container">
               
