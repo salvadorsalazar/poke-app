@@ -78,11 +78,11 @@ color: #616c72;
  .right-content {
     /* .left-content { */
  
-     width:   50%;
+     width:   40%;
      text-align: center;
      color: rgb(53, 16, 16);
      position: fixed;
-     top: 10px;
+     top: 100px;
      right: 10px;
      
      
@@ -122,6 +122,7 @@ color: #616c72;
      text-transform: uppercase;
      font-weight: bold;
      letter-spacing: 1px;
+     margin-top: auto;
           /* background-color: #1a5d7e; */
 
  }
