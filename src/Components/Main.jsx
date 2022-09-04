@@ -47,11 +47,12 @@ const Main = () => {
         {/* <div><h1 className="h1Center">Pokemon Index</h1></div> */}
                  
           {/* <div class="topnav">
-                  <a class="active" href="#home"><img src="./images/Pokemon-Logo-PNG5.png" width={200} height={50}></img></a>
-                  {/* <a href="#about">About</a>
-                  <a href="#contact">Contact</a> */}
-                  {/* <input type="text" placeholder="Search.."></input>
-                </div> */} */}
+                  <a class="active" href="#home"><img src="./images/Pokemon-Logo-PNG5.png"
+                   width={200} height={50}></img></a>
+                  <a href="#about">About</a>
+                  <a href="#contact">Contact</a>
+                  <input type="text" placeholder="Search.."></input>
+                </div> */}
 
         
 

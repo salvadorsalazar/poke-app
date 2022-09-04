@@ -2,7 +2,7 @@ import React from "react";
 import Main from './Components/Main';
 import './Components/style.css';
 
-import Navbar from "./components/Navbar";
+// import Navbar from "./Navbar";
 
 
 function App() {
