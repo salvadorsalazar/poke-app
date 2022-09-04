@@ -7,6 +7,9 @@ import Pokeinfo from "./Pokeinfo";
 import axios from "axios";
 import { useState } from "react";
 import { useEffect } from "react";
+
+import Navbar from "./Navbar";
+
 const Main = () => {
   const [pokeData, setPokeData] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -42,12 +45,20 @@ const Main = () => {
         <>
             
         {/* <div><h1 className="h1Center">Pokemon Index</h1></div> */}
-       <div class="topnav">
-  <a class="active" href="#home"><img src="./images/Pokemon-Logo-PNG5.png" width={200} height={50}></img></a>
-  {/* <a href="#about">About</a>
-  <a href="#contact">Contact</a> */}
-  <input type="text" placeholder="Search.."></input>
-</div>
+                 
+          {/* <div class="topnav">
+                  <a class="active" href="#home"><img src="./images/Pokemon-Logo-PNG5.png" width={200} height={50}></img></a>
+                  {/* <a href="#about">About</a>
+                  <a href="#contact">Contact</a> */}
+                  {/* <input type="text" placeholder="Search.."></input>
+                </div> */} */}
+
+        
+
+
+
+
+
 
           <div className="container">
               
